@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Local YOLO model weights
+*.pt
+yolov8n.pt
+
+# VS Code / IDE settings
+.vscode/
+.idea/
+
+# User data logs & screenshots
+violations.csv
+screenshots/*
+!screenshots/.gitkeep
