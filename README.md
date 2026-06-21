@@ -6,12 +6,12 @@ This project is suitable as a submission for a university-level Computer Vision 
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 Online education demands reliable integrity verification. This application acts as a virtual proctor that operates locally on the user's computer. It runs a lightweight inference pipeline to continuously analyze the video stream for standard cheating indicators, outputting a real-time HUD dashboard and logging violations with photographic evidence.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 1. **Candidate Verification & Presence (Face Detection)**
    - Continuous detection and counting of faces in the webcam feed.
@@ -44,7 +44,7 @@ Online education demands reliable integrity verification. This application acts 
 
 ---
 
-## 📐 Mathematical Background: Head Pose Estimation
+## Mathematical Background: Head Pose Estimation
 To calculate looking direction without requiring depth cameras, we solve the **Perspective-n-Point (PnP)** problem. 
 
 Given:
@@ -70,7 +70,7 @@ The rotation vector is transformed into a $3 \times 3$ rotation matrix $R$ using
 
 ---
 
-## 📂 Project Directory Structure
+## Project Directory Structure
 
 ```
 SmartExamProctor/
@@ -94,7 +94,7 @@ SmartExamProctor/
 
 ---
 
-## 💻 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Python **3.11**
@@ -119,12 +119,12 @@ python main.py
 
 ---
 
-## ⌨️ Controls
+## Controls
 - **`q`**: Press `q` inside the video display window to stop proctoring and safely release the webcam stream.
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 - **Gaze Tracking**: Combine head pose with eye-iris center offset tracking for micro-movement looking away detection.
 - **Audio Proctoring**: Process microphone input to detect voice activity or background conversations.
 - **Tab/Window Switch Lockout**: Create an OS-level listener to flag if the user navigates away from the active exam browser window.
